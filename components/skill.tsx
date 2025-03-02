@@ -50,12 +50,12 @@ export const Skill = () => {
            key={index}
            >
               <Card  className="flex flex-col items-center shadow-lg bg-gradient-to-tr from-primary/20 to-transparent">
-                <CardHeader className="flex flex-col items-center">
-                  <Image src={skill.img} alt={skill.skill} width={50} height={50} className="overflow-hidden"/>
-                  <CardTitle className="text-lg font-semibold mt-2">{skill.skill}</CardTitle>
+                <CardHeader className="flex flex-col items-center gap-y-2">
+                  <Image src={skill.img} alt={skill.skill} width={50} height={50} className="overflow-hidden object-contain size-10 md:size-16"/>
+                  <CardTitle className=" text-sm md:text-lg font-semibold mt-2">{skill.skill}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground text-center">{skill.desc}</p>
+                  <p className="text-xs md:text-sm text-muted-foreground text-center">{skill.desc}</p>
                 </CardContent>
               </Card>
               </motion.div>
