@@ -22,7 +22,7 @@ export const ContactInfo = () => {
         whileInView={{opacity:1, x: 0}}
         transition={{duration:1, delay:0.4, ease:"easeIn"}}
         >
-        <h2 className="text-4xl font-bold ">Contact info</h2>
+        <h2 className="text-3xl md:text-4xl font-bold ">Contact info</h2>
         <p className="text-white/70 max-w-md">
         Feel free to reach out! Let's collaborate and bring your ideas to life. 🚀📩
         </p>

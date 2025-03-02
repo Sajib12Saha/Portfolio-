@@ -92,7 +92,7 @@ export const ContactForm = () => {
            whileInView={{opacity:1, x: 0}}
            transition={{duration:1, delay:0.2, ease:"easeIn"}}
           >
-            <h2 className="text-4xl font-bold">Let's make your brand brilliant!</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">Let's make your brand brilliant!</h2>
 
             <Form {...form}>
               <form className="space-y-6" onSubmit={form.handleSubmit(onSubmit)}>
