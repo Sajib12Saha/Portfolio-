@@ -29,7 +29,7 @@ export const Skill = () => {
           </motion.h2>
           <div className="">
 
-          <Tabs defaultValue="language" className="w-full">
+          <Tabs defaultValue="language" className="w-full p-0">
       <TabsList className="w-full flex gap-y-2 flex-wrap items-center justify-around rounded-md shadow-md  ">
         <TabsTrigger value="language">Language</TabsTrigger>
         <TabsTrigger value="framework"> Framework</TabsTrigger>
@@ -41,7 +41,7 @@ export const Skill = () => {
 
       {Object.entries(SKILLS).map(([category, skills]) => (
         <TabsContent key={category} value={category} className="mt-10">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {skills.map((skill, index) => (
            <motion.div
            initial={{ opacity: 0, x: -100 }} 
@@ -49,7 +49,7 @@ export const Skill = () => {
            transition={{ duration: 1, ease: "easeOut", delay:0.4}}
            key={index}
            >
-              <Card  className="p-4 flex flex-col items-center shadow-lg bg-gradient-to-tr from-primary/20 to-transparent">
+              <Card  className="flex flex-col items-center shadow-lg bg-gradient-to-tr from-primary/20 to-transparent">
                 <CardHeader className="flex flex-col items-center">
                   <Image src={skill.img} alt={skill.skill} width={50} height={50} className="overflow-hidden"/>
                   <CardTitle className="text-lg font-semibold mt-2">{skill.skill}</CardTitle>
