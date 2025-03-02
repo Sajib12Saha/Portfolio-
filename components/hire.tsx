@@ -33,7 +33,7 @@ export const Hire = () => {
           I’m a skilled Next.js and React developer with a strong focus on UI/UX, performance, and scalability. With expertise in full-stack and SaaS development, I build efficient, user-friendly, and high-performing web applications. I prioritize clean code, modern design, and seamless functionality to deliver outstanding digital experiences. Let’s bring your ideas to life! 🚀
           </motion.p>
 
-          <div className="grid grid-cols-3 gap-6 py-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 py-8">
     {stats.map((stat, index) => (
       <motion.div key={index} className="text-center p-4 bg-secondary rounded-lg"
       
