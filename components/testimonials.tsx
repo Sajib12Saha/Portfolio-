@@ -1,9 +1,9 @@
 'use client'
-import { Star } from "lucide-react"
-import { Card } from "@/components/ui/card"
-import { Reviews } from "@/constant"
-import { motion, useAnimation } from "framer-motion"
-import { useEffect, useState } from "react"
+import { motion, useAnimation } from "framer-motion";
+import { Card } from "./ui/card";
+import { Star } from "lucide-react";
+import { useEffect, useState } from "react";
+import { Reviews } from "@/constant";
 
 export const Testimonials = () => {
   const controls = useAnimation();
@@ -12,13 +12,13 @@ export const Testimonials = () => {
   useEffect(() => {
     controls.start({ 
       x: ["0%", "-100%"], 
-      transition: { repeat: Infinity, duration: 20, ease: "linear" } 
+      transition: { repeat: Infinity, duration: 50, ease: "linear" } // ⬅ Slower scrolling
     });
   }, [controls]);
 
   const toggleAnimation = () => {
     if (paused) {
-      controls.start({ x: ["0%", "-100%"], transition: { repeat: Infinity, duration: 20, ease: "linear" } });
+      controls.start({ x: ["0%", "-100%"], transition: { repeat: Infinity, duration: 50, ease: "linear" } });
     } else {
       controls.stop();
     }
@@ -58,7 +58,7 @@ export const Testimonials = () => {
                 className="w-72 md:w-96"
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1, ease: "easeOut" }}
+                transition={{ duration: 1, delay: index * 0.1, ease: "easeOut" }}
               >
                 <Card className="border-0 p-6 rounded-2xl bg-gray-800 shadow-lg overflow-hidden">
                   <div className="flex items-center gap-4 mb-4">
