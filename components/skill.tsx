@@ -4,6 +4,7 @@ import Image from "next/image";
 import {
   Card,
   CardContent,
+  CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
@@ -53,10 +54,9 @@ export const Skill = () => {
                 <CardHeader className="flex flex-col items-center gap-y-2">
                   <Image src={skill.img} alt={skill.skill} width={50} height={50} className="overflow-hidden object-contain size-10 md:size-16"/>
                   <CardTitle className=" text-sm md:text-lg font-semibold mt-2">{skill.skill}</CardTitle>
+                  <CardDescription className="text-xs md:text-sm text-center">{skill.desc}</CardDescription>
                 </CardHeader>
-                <CardContent>
-                  <p className="text-xs md:text-sm text-muted-foreground text-center">{skill.desc}</p>
-                </CardContent>
+             
               </Card>
               </motion.div>
              
