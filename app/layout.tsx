@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "Sajib Chandra Saha",
     images: [
       {
-        url: '/background.jpg', 
+        url: '/background2.jpg', 
         width: 1200,
         height: 630,
         alt: "Sajib Chandra Saha Portfolio",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sajib Chandra Saha",
     description: "Portfolio website powered by Sajib Chandra Saha",
-    images: '/background.jpg', // Replace with your Twitter card image URL
+    images: '/background2.jpg', // Replace with your Twitter card image URL
     site: "@your_twitter_handle", // Replace with your Twitter handle
     creator: "@your_twitter_handle",
   },
