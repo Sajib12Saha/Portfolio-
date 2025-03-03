@@ -44,9 +44,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sajib Chandra Saha",
     description: "Portfolio website powered by Sajib Chandra Saha",
-    images: '/background.jpg', // Replace with your Twitter card image URL
+    images:['/background.jpg'], // Replace with your Twitter card image URL
     site: "@your_twitter_handle", // Replace with your Twitter handle
     creator: "@your_twitter_handle",
+    
   },
 };
 
