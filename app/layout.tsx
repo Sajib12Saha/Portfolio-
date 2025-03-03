@@ -27,11 +27,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sajib Chandra Saha",
     description: "Portfolio website powered by Sajib Chandra Saha",
-    url: `${process.env.NEXT_PUBLIC_URL}`, 
+    url: `${process.env.NEXT_PUBLIC_URL!}`, 
     siteName: "Sajib Chandra Saha",
     images: [
       {
-        url: `/background.jpg`, 
+        url: `${process.env.NEXT_PUBLIC_URL!}/background.jpg`, 
         width: 1200,
         height: 630,
         alt: "Sajib Chandra Saha Portfolio",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sajib Chandra Saha",
     description: "Portfolio website powered by Sajib Chandra Saha",
-    images: [`/background.jpg`], // Replace with your Twitter card image URL
+    images: [`${process.env.NEXT_PUBLIC_URL!}/background.jpg`], // Replace with your Twitter card image URL
     site: "@your_twitter_handle", // Replace with your Twitter handle
     creator: "@your_twitter_handle",
   },
