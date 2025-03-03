@@ -18,13 +18,38 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sajib Chandra Saha",
   description: "Portfolio website powered by Sajib Chandra Saha",
-  icons:[
+  icons: [
     {
-      url:"/",
-      href:"/logo.svg"
-    }
-  ]
+      url: "/",
+      href: "/logo.svg",
+    },
+  ],
+  openGraph: {
+    title: "Sajib Chandra Saha",
+    description: "Portfolio website powered by Sajib Chandra Saha",
+    url: `${process.env.NEXT_PUBLIC_URL}`, 
+    siteName: "Sajib Chandra Saha",
+    images: [
+      {
+        url: `${process.env.NEXT_PUBLIC_URL}/background.jpg`, 
+        width: 1200,
+        height: 630,
+        alt: "Sajib Chandra Saha Portfolio",
+      },
+    ],
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sajib Chandra Saha",
+    description: "Portfolio website powered by Sajib Chandra Saha",
+    images: [`${process.env.NEXT_PUBLIC_URL}/background.jpg`], // Replace with your Twitter card image URL
+    site: "@your_twitter_handle", // Replace with your Twitter handle
+    creator: "@your_twitter_handle",
+  },
 };
+
 
 export default function RootLayout({
   children,
