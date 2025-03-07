@@ -134,10 +134,10 @@ export  const SERVICES = [
 
     export const PROJECT: PROJECTPROPS[] = [
       {
-        title: "Website Creation Guide",
-        des: "A step-by-step guide to building stunning websites with best practices and modern technologies.",
+        title: "Car Maintenance & Service Platform",
+        des: "Car Gerate is an innovative platform that simplifies vehicle maintenance by offering real-time diagnostics and service scheduling",
         img: "/portfolio/project.jpg",
-        href: "",
+        href: "https://motocare.vercel.app",
       },
       {
         title: "My Life Chronicles",
@@ -149,7 +149,7 @@ export  const SERVICES = [
         title: "Delicious Food Recipes",
         des: "Explore mouthwatering recipes that bring flavors to life, from quick meals to gourmet delights.",
         img: "/portfolio/project2.jpg",
-        href: "",
+        href: "https://restaurant-beige-psi.vercel.app",
       },
       {
         title: "Adventurer’s Hiking Guide",
