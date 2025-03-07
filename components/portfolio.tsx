@@ -74,16 +74,6 @@ export const Portfolio = () => {
                       className="object-cover w-full h-64 rounded-b-xl"
                     />
                   </CardContent>
-                  {href && (
-                    <div className="p-5">
-                      <a
-                        href={href}
-                        className="inline-block text-primary hover:text-primary-light font-semibold transition"
-                      >
-                        Learn more →
-                      </a>
-                    </div>
-                  )}
                 </Card>
                 </Link>
               
