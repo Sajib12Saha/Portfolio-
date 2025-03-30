@@ -53,7 +53,8 @@ export  const SERVICES = [
       { img: "/skill/redux.svg", skill: "Redux", desc: "State management library for predictable app behavior." },
       { img: "/skill/prisma.svg", skill: "Prisma", desc: "Next-generation ORM for working with databases in TypeScript and JavaScript." },
       { img: "/skill/webrtc.svg", skill: "WebRTC", desc: "Real-time communication technology for audio, video, and data sharing between peers." },
-      { img: "/skill/socket-io.svg", skill: "Socket.IO", desc: "Library for real-time communication between clients and servers using WebSockets." }
+      { img: "/skill/socket-io.svg", skill: "Socket.IO", desc: "Library for real-time communication between clients and servers using WebSockets." }, 
+      { img: "/skill/react-query.png", skill: "React Query", desc: "Data fetching and state management library for asynchronous operations in React applications."}
     ],
     ai: [
       { img: "/skill/chatgpt.svg", skill: "ChatGPT", desc: "AI-powered conversational assistant for automation and development." },
