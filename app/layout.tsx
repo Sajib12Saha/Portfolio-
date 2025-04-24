@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   icons: [
     {
       url: "/",
-      href: "/logo.svg",
+      href: "/icon.png",
     },
   ],
   openGraph: {
