@@ -29,7 +29,7 @@ export const Hero = () => {
         <div className="flex items-center w-full justify-between md:hidden mt-10 px-4 fixed top-0 left-0 right-0 z-50 ">
 
         <Link href="/">
-      <Image src="/logo.svg" alt="Logo" width={40} height={40} className="overflow-hidden"/>
+      <Image src="/icon.png" alt="Logo" width={40} height={40} className="overflow-hidden"/>
     </Link>
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger>
