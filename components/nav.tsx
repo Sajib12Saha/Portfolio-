@@ -15,7 +15,7 @@ export const Nav = () => {
     <div className="hidden md:flex mb-20 w-full justify-center">
       <nav className="fixed top-0 z-50 flex items-center justify-between py-2 mt-6 border-b border-gray-500 bg-white/10 backdrop-blur-md rounded-full px-6 w-full max-w-[90%] md:max-w-[80%] lg:max-w-[70%]">
         <Link href="/">
-          <Image src="/logo.svg" alt="Logo" width={40} height={40} className="overflow-hidden" />
+          <Image src="/icon.png" alt="Logo" width={40} height={40} className="overflow-hidden" />
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
